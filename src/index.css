@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(67, 49, 49);
+}
+h1{
+    text-align: center;
+    color: white;
+}
+h1:hover{
+    color: rgb(230, 230, 159);
+}
+.tarea{
+    background-color:rgb(75, 13, 13);
+    text-align: center;
+    width: 20%;
+    color: white;
+    border: none; 
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.listaTareas{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inputTarea{
+    border: none;
+    margin-bottom: 20px;
+    height: 30px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.inputDes{
+    border: none;
+    height: 100px;
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.inputTarea:hover{
+    background-color: rgb(214, 173, 173);
+}
+
+.inputDes:hover{
+    background-color: rgb(214, 173, 173);
+}
+
+.form{
+    margin-top: 30px;
+    background-color: rgb(89, 15, 15) ;
+    padding: 20px;
+    width: 500px;
+    margin-bottom: 80px;
+    height: 300px;
+    margin-left: 30%;
+    
+    
+}
+
+.guardar{
+    border: none;
+    height: 30px;
+    width: 100%;
+}
+
+.guardar:hover{
+    background-color: rgb(160, 208, 160);
+    color: green;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btnEliminar{
+    /* background-color: red; */
+    padding: 10px;
+    width: 100%;
+    border: none;
+}
+
+.btnEliminar:hover{
+    cursor: pointer;
+    color: red;
+    background-color: rgb(214, 173, 173);
+    /* background-color: grey; */
+
+}
